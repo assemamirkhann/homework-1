@@ -28,7 +28,7 @@ public abstract class Character {
     public int getStrength(){ return strength;}
     public int getIntelligence(){ return intelligence;}
 
-    protected void displayStats(){
+    public void displayStats(){
         System.out.println("Name: "+name);
         System.out.println("Health: "+health);
         System.out.println("Mana: "+mana);
@@ -37,9 +37,11 @@ public abstract class Character {
     }
     public void equipWeapon(Weapon weapon){
         this.weapon = weapon;
+        System.out.println(name + weapon.getWeaponInfo());
     }
     public void equipArmor(Armor armor){
         this.armor = armor;
+        System.out.println(name + armor.getArmorInfo());
     }
     public abstract void useSpecialAbility();
 }
