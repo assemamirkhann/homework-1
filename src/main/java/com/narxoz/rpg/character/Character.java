@@ -35,6 +35,11 @@ public abstract class Character {
         System.out.println("Strength: "+strength);
         System.out.println("Intelligence: "+intelligence);
     }
-
+    public void equipWeapon(Weapon weapon){
+        this.weapon = weapon;
+    }
+    public void equipArmor(Armor armor){
+        this.armor = armor;
+    }
     public abstract void useSpecialAbility();
 }
