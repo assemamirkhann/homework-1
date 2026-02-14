@@ -1,4 +1,4 @@
-package com.narxoz.rpg.equipment.Magic;
+package com.narxoz.rpg.equipment.Ranger;
 
 import com.narxoz.rpg.equipment.Armor;
 
