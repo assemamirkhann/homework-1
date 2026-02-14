@@ -14,14 +14,11 @@ package com.narxoz.rpg.equipment;
  * TODO: Create similar implementations for:
  * Weapons:
  * - WizardStaff (Magic theme)
- * - Longbow (Ranger theme)
- * - Other weapons you imagine...
- *
+ * - Longbow (Ranger theme)*
  * Armor:
  * - PlateArmor (Medieval theme)
  * - EnchantedRobes (Magic theme)
  * - LeatherArmor (Ranger theme)
- * - Other armor you imagine...
  */
 public class IronSword implements Weapon {
 
@@ -40,7 +37,9 @@ public class IronSword implements Weapon {
     public int getDamage() {
         return damage;
     }
-
+    public String getWeaponType(){
+        return weaponType;
+    }
     public String getWeaponInfo() {
         return "Iron Sword (Medieval) - A sturdy blade forged from iron";
     }
