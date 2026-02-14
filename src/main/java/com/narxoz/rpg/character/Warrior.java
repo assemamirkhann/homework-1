@@ -16,7 +16,7 @@ package com.narxoz.rpg.character;
  * - Archer (balanced stats, ranged combat)
  * - (Optional) Additional classes: Rogue, Paladin, etc.
  */
-public class Warrior implements Character {
+public class Warrior extends Character {
 
     private String name;
     private int health;
