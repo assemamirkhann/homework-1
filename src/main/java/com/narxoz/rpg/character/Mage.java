@@ -5,7 +5,7 @@ public class Mage extends Character{
         // Think: Should Warrior know about its equipment?
 
         public Mage(String name) {
-            super(name, 150, 30, 80, 20);
+            super(name, 100, 70, 40, 100);
         }
 
         // Example method structure:
