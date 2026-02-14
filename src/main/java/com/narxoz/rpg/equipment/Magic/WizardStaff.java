@@ -1,7 +1,9 @@
-package com.narxoz.rpg.equipment;
+package com.narxoz.rpg.equipment.Magic;
 
-public class WizardStaff implements Weapon{
-    private String spell;
+import com.narxoz.rpg.equipment.Weapon;
+
+public class WizardStaff implements Weapon {
+        private String spell;
         private int damage;
         private String weaponType;
 
@@ -27,6 +29,7 @@ public class WizardStaff implements Weapon{
             System.out.println("Weapon: " + getWeaponInfo());
             System.out.println("Damage: " + damage);
             System.out.println("Type: " + weaponType);
+            System.out.println("Spell: " + spell);
         }
         // - Spell power
     }

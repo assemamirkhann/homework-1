@@ -1,4 +1,6 @@
-package com.narxoz.rpg.equipment;
+package com.narxoz.rpg.equipment.Medieval;
+
+import com.narxoz.rpg.equipment.Weapon;
 
 /**
  * Example concrete weapon implementation - Medieval theme.
